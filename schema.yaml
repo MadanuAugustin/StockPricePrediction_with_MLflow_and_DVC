@@ -1,3 +1,14 @@
 
 
-key : val
+COLUMNS :
+  Date      :    object
+  Open      :   float64
+  High      :   float64
+  Low       :   float64
+  Close     :   float64
+  Adj_close :   float64
+  volume    :     int64
+
+
+TARGET_COLUMN:
+  name : Close
